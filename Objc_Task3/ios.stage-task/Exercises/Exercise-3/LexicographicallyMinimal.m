@@ -9,10 +9,10 @@
 @implementation LexicographicallyMinimal
 
 -(NSString *)findLexicographicallyMinimalForString1:(NSString *)string1 andString2:(NSString *)string2 {
-    NSUInteger firstIndex = 0;
-    NSUInteger secondIndex = 0;
-    NSUInteger firstLength = string1.length;
-    NSUInteger secondLength = string2.length;
+    NSInteger firstIndex = 0;
+    NSInteger secondIndex = 0;
+    NSInteger firstLength = string1.length;
+    NSInteger secondLength = string2.length;
 
     NSMutableString *resultString = [NSMutableString string];
 
